@@ -1212,53 +1212,45 @@ img {
 }
 
 
-/* =========================================
-   PROJECT STORY
-========================================= */
+/* PROJECT STORY */
 
 .project-story {
+  margin-top: 36px;
   border-top: 1px solid var(--line);
-  margin: 32px 0 28px;
 }
 
-.project-story>div {
+.project-story > div {
   display: grid;
-  grid-template-columns: 38px 1fr;
-  column-gap: 18px;
-  row-gap: 4px;
-  padding: 18px 0;
+  grid-template-columns: 65px 1fr;
+  column-gap: 20px;
+  padding: 28px 0;
   border-bottom: 1px solid var(--line);
 }
 
 .project-story span {
   grid-column: 1;
-  grid-row: 1 / span 2;
+  font-size: 11px;
+  font-weight: 600;
   color: var(--accent);
-  font-size: 9px;
-  letter-spacing: .08em;
-  font-weight: 700;
   padding-top: 2px;
 }
 
 .project-story strong {
   grid-column: 2;
-  grid-row: 1;
-  display: block;
-  font-size: 13px;
-  line-height: 1.4;
+  font-size: 17px;
   font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
 }
 
 .project-story p {
   grid-column: 2;
-  grid-row: 2;
+  font-size: 13px;
+  line-height: 1.6;
   color: var(--muted);
-  font-size: 11px;
-  line-height: 1.55;
-  margin: 0;
-  max-width: 520px;
+  margin: 6px 0 0;
+  max-width: 620px;
 }
-
 
 /* =========================================
    RESPONSIVE
